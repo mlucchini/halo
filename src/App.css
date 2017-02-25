@@ -39,10 +39,10 @@ a {
 }
 
 /* Animations */
-#landscape, .land, #bottom, .stags, .stag, .lensFlare, .sunMask {
+#landscape, .land, #landfront, .stags, .stag, .lensFlare, .sunMask {
   animation-duration: 60s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;  
+  animation-timing-function: linear;
   animation-delay: 2s;
 }
 
@@ -50,13 +50,13 @@ a {
 @media screen and (min-aspect-ratio: 3/1) and (max-aspect-ratio: 6/1) {
   body{background: rgb(31, 60, 80);}
   body:before{content:'Aspect ratio out of range - too wide';color: white;text-align: center;width: 100%;height: 100%;display: block;position: absolute;top: 50%;}
-  .sky, .sky-reflection, #sunMask, #landscape, #bottom, #stag, .controls, .stars, .sunMask, .clouds, .lighting, .vignette, .twinkleWrap,.spriteWrap{display: none;}
+  .sky, .sky-reflection, #sunMask, #landscape, #landfront, #stag, .controls, .stars, .sunMask, .clouds, .lighting, .vignette, .twinkleWrap,.spriteWrap{display: none;}
 }
 @media screen and (min-aspect-ratio: 14/5) and (max-aspect-ratio: 7/2) {
   .twinkles{}
   .sky-reflection, #sunMask{height: 42%;}
   #landscape{bottom: -3%;}
-  #bottom{top: 101%;}
+  #landfront{top: 101%;}
   #stag{bottom: 3%;}
   .sun{top: -570%;}
   .twinkles{top: 77%;}
@@ -65,7 +65,7 @@ a {
   .twinkles{top: 75%;}
   .sky-reflection, #sunMask{}
   #landscape{bottom: 1%;}
-  #bottom{top: 98%;}
+  #landfront{top: 98%;}
   #stag{bottom: 7%;}
   .sun{top: -532%;}
 }
@@ -73,7 +73,7 @@ a {
   .twinkles{top: 75%;}
   .sky-reflection, #sunMask{height: 40%;}
   #landscape{bottom: 5%;}
-  #bottom{top: 94%;}
+  #landfront{top: 94%;}
   #stag{bottom: 10%;}
   .sun{top: -452%;}
 }
@@ -81,7 +81,7 @@ a {
   .twinkles{}
   .sky-reflection, #sunMask{}
   #landscape{bottom: 6%;}
-  #bottom{top: 93%;}
+  #landfront{top: 93%;}
   #stag{
   bottom: 11%;}
   .sun{top: -410%;}
@@ -90,7 +90,7 @@ a {
   .twinkles{}
   .sky-reflection, #sunMask{height: 37%;}
   #landscape{bottom: 6%;}
-  #bottom{top: 93%;}
+  #landfront{top: 93%;}
   #stag{bottom: 11%;}
   .sun{}
 }
@@ -98,7 +98,7 @@ a {
   .twinkles{}
   .sky-reflection, #sunMask{height: 31%;}
   #landscape{bottom: 7%;}
-  #bottom{top: 92%;}
+  #landfront{top: 92%;}
   #stag{bottom: 12%;}
   .sun{}
 }
@@ -106,7 +106,7 @@ a {
   .twinkles{}
   .sky-reflection, #sunMask{height: 31%;}
   #landscape{bottom: 8%;}
-  #bottom{top: 91%;}
+  #landfront{top: 91%;}
   #stag{bottom: 12%;}
   .sun{top: -370%;}
 }
@@ -114,7 +114,7 @@ a {
   .twinkles{}
   .sky-reflection, #sunMask{height: 30%;}
   #landscape{}
-  #bottom{}
+  #landfront{}
   #stag{bottom: 15%;}
   .sun{}
 }
@@ -122,7 +122,7 @@ a {
   .twinkles{top: 71%;}
   .sky-reflection, #sunMask{height: 28%;}
   #landscape{bottom: 13%;}
-  #bottom{top: 86%;}
+  #landfront{top: 86%;}
   #stag{bottom: 17%;}
   .sun{top: -300%;}
 }
@@ -130,7 +130,7 @@ a {
   .twinkles{top: 69%;}
   .sky-reflection, #sunMask{height: 24%;}
   #landscape{bottom: 16%;}
-  #bottom{top: 83%;}
+  #landfront{top: 83%;}
   #stag{bottom: 20%;}
   .sun{top: -270%;}
 }
@@ -138,7 +138,7 @@ a {
   .twinkles{top: 68%;}
   .sky-reflection, #sunMask{height: 22%;}
   #landscape{bottom: 18%;}
-  #bottom{top: 81%;}
+  #landfront{top: 81%;}
   #stag{bottom: 21.6%;}
   .sun{top: -240%;}
 }
@@ -146,7 +146,7 @@ a {
   .twinkles{top: 66%;}
   .sky-reflection, #sunMask{height: 19%;}
   #landscape{bottom: 22%;}
-  #bottom{top: 77%;}
+  #landfront{top: 77%;}
   #stag{bottom: 25%;}
   .sun{top: -230%;}
 }
@@ -154,7 +154,7 @@ a {
   .twinkles{top: 65%;}
   .sky-reflection, #sunMask{height: 18%;}
   #landscape{bottom: 23%;}
-  #bottom{top: 76%;}
+  #landfront{top: 76%;}
   #stag{bottom: 25.3%;}
   .sun{top: -180%;}
 }
@@ -162,7 +162,7 @@ a {
   .twinkles{top: 63%;width: 3%;}
   .sky-reflection, #sunMask{height: 17%;}
   #landscape{bottom: 26%;}
-  #bottom{top: 73.8%;}
+  #landfront{top: 73.8%;}
   #stag{bottom: 28.3%;}
   .sun{top: -140%;}
 }
@@ -170,7 +170,7 @@ a {
   .twinkles{top: 63%; width: 3%;}
   .sky-reflection, #sunMask{height: 13%;}
   #landscape{bottom: 28%;}
-  #bottom{top: 71.5%;}
+  #landfront{top: 71.5%;}
   #stag{bottom: 30%;}
   .sun{top: -110%;}
 }
@@ -178,7 +178,7 @@ a {
   .twinkles{top: 62%; width: 3%;}
   .sky-reflection, #sunMask{height: 11%;}
   #landscape{bottom: 30%;}
-  #bottom{top: 69.6%;}
+  #landfront{top: 69.6%;}
   #stag{bottom: 31.8%;}
   .sun{top: -70%;}
 }
@@ -186,12 +186,12 @@ a {
   .twinkles{top: 62%; width: 3%;}
   .sky-reflection, #sunMask{height: 8%;}
   #landscape{bottom: 32%;}
-  #bottom{top: 67.5%;}
+  #landfront{top: 67.5%;}
   #stag{bottom: 33.5%;}
   .sun{top: -55%;}
 }
 @media screen and (min-aspect-ratio: 1/10) and (max-aspect-ratio: 5/9) {
   body{background: rgb(31, 60, 80);}
   body:before{content:'Aspect ratio out of range - too narrow';color: white;text-align: center;width: 100%;height: 100%;display: block;position: absolute;top: 50%;}
-  .sky, .sky-reflection, #sunMask, #landscape, #bottom, #stag, .controls, .stars, .sunMask, .clouds, .lighting, .vignette, .twinkleWrap,.spriteWrap{display: none;}
+  .sky, .sky-reflection, #sunMask, #landscape, #landfront, #stag, .controls, .stars, .sunMask, .clouds, .lighting, .vignette, .twinkleWrap,.spriteWrap{display: none;}
 }

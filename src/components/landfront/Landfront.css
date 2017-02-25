@@ -1,5 +1,5 @@
-#bottom {
-  animation-name: bottomFill;
+#landfront {
+  animation-name: landfrontFill;
   height: 100%;
   position: absolute;
   top: 88%;
@@ -7,7 +7,7 @@
   z-index: 5;
 }
 
-@keyframes bottomFill {
+@keyframes landfrontFill {
   0% { background:#0D141E; }
   4% { background:#101522; }
   8% { background:#121726; }
