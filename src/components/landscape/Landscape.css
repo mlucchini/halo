@@ -9,7 +9,6 @@
 #landscape .layer1 {
     fill:#F1F2F2;
     animation-name: layer1;
-    
 }
 
 @keyframes layer1 {
@@ -45,7 +44,6 @@
 #landscape .layer2 {
     fill:#E6E7E8;
     animation-name: layer2;
-    
 }
 
 @keyframes layer2 {

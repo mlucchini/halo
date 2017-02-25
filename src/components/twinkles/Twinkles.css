@@ -12,7 +12,7 @@
     position: absolute;
     right: 49.2%;
     top: 72.5%;
-    animation: twinkles 60s linear infinite;
+    animation: twinkles;
 }
 
 @keyframes twinkles {

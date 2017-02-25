@@ -1,0 +1,15 @@
+.informations {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  position: absolute;
+  z-index: 100;
+  padding: 2em;
+}
+
+.city {
+  font-size: 1em;
+}
+
+.temperature {
+  font-size: 2em;
+}

@@ -9,6 +9,7 @@ import Sun from '../components/sun'
 import Clouds from '../components/clouds'
 import Vignette from '../components/vignette'
 import Twinkles from '../components/twinkles'
+import Informations from '../components/informations'
 
 storiesOf('Clouds', module)
   .add('default', () => (
@@ -58,4 +59,12 @@ storiesOf('Vignette', module)
 storiesOf('Twinkles', module)
   .add('default', () => (
     <Twinkles />
+  ))
+
+storiesOf('Informations', module)
+  .add('Twenty', () => (
+    <Informations temperature="20" />
+  ))
+  .add('Minus', () => (
+    <Informations temperature="-12" />
   ))

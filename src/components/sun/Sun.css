@@ -22,8 +22,8 @@
   opacity:0.5;
 }
 
-.suncrane{
-  animation: suncrane 60s linear infinite; 
+.suncrane {
+  animation-name: suncrane;
   position:absolute;
   width: 21%;
   height: 4%;
@@ -42,7 +42,7 @@
 .sun:before {
   display:block;
   content:' ';
-  animation: glare 60s linear infinite;
+  animation-name: glare;
   position:absolute;
   width: 120%;
   height: 120%;

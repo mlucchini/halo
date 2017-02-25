@@ -8,6 +8,7 @@ import Sun from './components/sun'
 import Clouds from './components/clouds'
 import Vignette from './components/vignette'
 import Twinkles from './components/twinkles'
+import Informations from './containers/Informations'
 import './App.css'
 
 const App = () => (
@@ -21,6 +22,7 @@ const App = () => (
     <Clouds />
     <Vignette />
     <Twinkles />
+    <Informations />
   </div>
 )
 

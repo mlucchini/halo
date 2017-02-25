@@ -1,7 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 
 html {
-  font-family: 'Open Sans', sans-serif;
   background: #0D133A;
   height:100%;
   font-size: 100%;
@@ -10,6 +9,7 @@ html {
   font-smoothing: antialiased;
   overflow: hidden;
   position: relative;
+  text-decoration: none;
 }
 
 body {
@@ -33,17 +33,13 @@ svg:not(:root) {
   overflow: hidden;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-}
-
 /* Animations */
-#landscape, .land, #landfront, .stags, .stag, .lensFlare, .sunMask {
+#landscape, .land, #landfront, .stags, .stag, .lensFlare, .sunMask,
+.sun:before, .clouds svg, .suncrane, .twinkles {
   animation-duration: 60s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  animation-delay: 2s;
+  animation-delay: 0s;
 }
 
 /* Aspect ratio media queries  */
