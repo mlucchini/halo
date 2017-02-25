@@ -7,3 +7,8 @@ cache:
 script:
   - npm test -- --coverage
   - npm run build
+deploy:
+  provider: surge
+  project: ./build/
+  skip_cleanup: true
+  domain: halo.surge.sh
