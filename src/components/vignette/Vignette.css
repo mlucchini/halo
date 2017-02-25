@@ -1,0 +1,9 @@
+.vignette {
+  background: radial-gradient(transparent 60%, rgb(1, 14, 39) 130%);
+  background-size: cover;
+  height: 100%;
+  z-index: 9;
+  position: absolute;
+  width: 100%; 
+  pointer-events: none;
+}

@@ -1,0 +1,80 @@
+.twinkleWrap {
+  position: absolute;
+  z-index: 4;
+  width:100%;
+  height:100%;
+  top:0; 
+  opacity: 0.55;
+}
+
+.twinkles {
+    width: 2.3%;
+    position: absolute;
+    right: 49.2%;
+    top: 72.5%;
+    animation: twinkles 60s linear infinite;
+}
+
+@keyframes twinkles {
+  0% {transform: translate(450%, 0%);opacity:0.0;}
+  32%{opacity:0.0;}
+  34%{opacity:1.0;}
+  36.5% {transform: translate(450%, 0%);}
+  54% {transform: translate(0%, 0%);}
+  72% {transform: translate(-450%, 0%);opacity:1.0;}
+  78%{opacity:0.0;}
+  100% {transform: translate(-450%, 0%);opacity:0.0;}
+}
+
+.twinkles:before {
+  content:' '; 
+  display: none;
+  position:absolute;
+  height: 600px;
+  width:3px;
+  background:red;
+  top: -600px;
+  left: 50%;
+}
+
+.twinkles svg {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.twinkle1 {
+  animation: twinkle1 2s linear infinite;
+}
+
+@keyframes twinkle1 {
+  0% {opacity:1.0;}
+  33.33% {opacity:0.0;}
+  66.66% {opacity:0.0;}
+  99.99% {opacity:1.0;}
+  100% {opacity:1.0;}
+}
+
+.twinkle2{
+  animation: twinkle2 2s linear infinite;
+}
+
+@keyframes twinkle2 {
+  0% {opacity:0.0;}
+  33.33% {opacity:1.0;}
+  66.66% {opacity:0.0;}
+  99.99% {opacity:0.0;}
+  100% {opacity:0.0;}
+}
+
+.twinkle3 {
+  animation: twinkle3 2s linear infinite;
+}
+
+@keyframes twinkle3 { 
+  0% {opacity:0.0;}
+  33.33% {opacity:0.0;}
+  66.66% {opacity:1.0;}
+  99.99% {opacity:0.0;}
+  100% {opacity:0.0;}
+}

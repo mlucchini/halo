@@ -1,0 +1,96 @@
+ #stag {
+  position: absolute;
+  bottom: 15.3%;
+  width: 6.3%;
+  left: 38%;
+  z-index: 5;
+}
+
+.stag {
+  width:100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+.stags {
+  animation-name: stags;
+}
+
+@keyframes stags { 
+  0% { fill:#0D141E;}
+  4% { fill:#101522;}
+  8% { fill:#121726;}
+  12% { fill:#141829;}
+  16% { fill:#1C1E3C;}
+  20% { fill:#22214F;}
+  24% { fill:#262262;}
+  28% { fill:#1D4065;}
+  32% { fill:#125768;}
+  36% { fill:#1E4553;}
+  40% { fill:#1E404E;}
+  44% { fill:#1E3B49;}
+  48% { fill:#1D3643;}
+  52% { fill:#1C313E;}
+  56% { fill:#1C3344;}
+  60% { fill:#1C3449;}
+  64% { fill:#1B344F;}
+  68% { fill:#183454;}
+  72% { fill:#242B4A;}
+  76% { fill:#2B2241;}
+  80% { fill:#24203C;}
+  84% { fill:#1D1D37;}
+  88% { fill:#151A32;}
+  92% { fill:#14192C;}
+  96% { fill:#111725;}
+  100% { fill:#0D141E;}
+}
+
+.stag1 {
+  animation-name: stag_one;
+  width: 108%;
+  left: -20%;
+}
+
+@keyframes stag_one {
+  0% {opacity:1.0;}
+  15% {opacity:1.0;}
+  20% {opacity:0.0;}
+  90% {opacity:0.0;}
+  95% {opacity:1.0;}
+  100% {opacity:1.0;}
+}
+
+.stag2 {
+  animation-name: stag_two;
+}
+
+@keyframes stag_two {
+  0% {opacity:0.0;}
+  17% {opacity:0.0;}
+  20% {opacity:1.0;}
+  40% {opacity:1.0;}
+  45% {opacity:0.0;}
+  65% {opacity:0.0;}
+  70% {opacity:1.0;}
+  90% {opacity:1.0;}
+  95% {opacity:0.0;}
+  100% {opacity:0.0;}
+}
+
+.stag3 {
+  animation-name: stag_three;
+  width: 144%;
+  left: -10%;
+  bottom: -3%;
+}
+
+@keyframes stag_three {
+  0% {opacity:0.0;}
+  15% {opacity:0.0;}
+  20% {opacity:0.0;}
+  40% {opacity:0.0;}
+  45% {opacity:1.0;}
+  65% {opacity:1.0;}
+  70% {opacity:0.0;}
+  100% {opacity:0.0;}
+}

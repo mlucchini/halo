@@ -1,0 +1,391 @@
+#landscape {
+  width: 100.02%;
+  position: absolute;
+  bottom: 11%;
+  z-index: 5;
+}
+
+/* Land - layer 1 animation */
+#landscape .layer1 {
+    fill:#F1F2F2;
+    animation-name: layer1;
+    
+}
+
+@keyframes layer1 {
+  0% { fill:#244154; }
+  4% { fill:#344358; }
+  8% { fill:#42465D; }
+  12% { fill:#4F4761; }
+  16% { fill:#7E5773; }
+  20% { fill:#A3517F; }
+  24% { fill:#F3829F; }
+  28% { fill:#D4B2AF; }
+  32% { fill:#AEDABB; }
+  36% { fill:#A1D6D6; }
+  40% { fill:#9ED5DD; }
+  44% { fill:#9AD4E4; }
+  48% { fill:#97D3EA; }
+  52% { fill:#92D3F4; }
+  56% { fill:#95C8DA; }
+  60% { fill:#96BDC5; }
+  64% { fill:#96B3B2; }
+  68% { fill:#96AA9E; }
+  72% { fill:#AF866A; }
+  76% { fill:#C0633B; }
+  80% { fill:#9D5E51; }
+  84% { fill:#7B5960; }
+  88% { fill:#59546D; }
+  92% { fill:#484E64; }
+  96% { fill:#37475C; }
+  100% { fill:#244154; }
+}
+
+/* Land - layer 2 animation */
+#landscape .layer2 {
+    fill:#E6E7E8;
+    animation-name: layer2;
+    
+}
+
+@keyframes layer2 {
+  0% { fill:#0F2B46; }
+  4% { fill:#1C2D4A; }
+  8% { fill:#272E4E; }
+  12% { fill:#302F52; }
+  16% { fill:#663966; }
+  20% { fill:#913776; }
+  24% { fill:#D94A93; }
+  28% { fill:#BB94AD; }
+  32% { fill:#76CCCE; }
+  36% { fill:#6BAEC9; }
+  40% { fill:#62A7CA; }
+  44% { fill:#59A0CB; }
+  48% { fill:#5099CC; }
+  52% { fill:#4692CF; }
+  56% { fill:#4D8FBD; }
+  60% { fill:#518CAF; }
+  64% { fill:#548AA1; }
+  68% { fill:#578793; }
+  72% { fill:#7E6768; }
+  76% { fill:#8F4244; }
+  80% { fill:#74404D; }
+  84% { fill:#593D55; }
+  88% { fill:#393B5D; }
+  92% { fill:#2C3655; }
+  96% { fill:#1F304E; }
+  100% { fill:#0F2B46; }
+}
+
+/* Land - layer 3 animation */
+#landscape .layer3 {
+    fill:#D1D3D4;
+    animation-name: layer3;
+}
+
+@keyframes layer3 {
+  0% { fill:#0F2944; }
+  4% { fill:#1B2B47; }
+  8% { fill:#252C4B; }
+  12% { fill:#2E2D4E; }
+  16% { fill:#5F3663; }
+  20% { fill:#863572; }
+  24% { fill:#C8458D; }
+  28% { fill:#A48BAB; }
+  32% { fill:#68BFC7; }
+  36% { fill:#54A4C8; }
+  40% { fill:#4F9EC8; }
+  44% { fill:#4B98C7; }
+  48% { fill:#4691C7; }
+  52% { fill:#408BC8; }
+  56% { fill:#4688B7; }
+  60% { fill:#4984A9; }
+  64% { fill:#4C819C; }
+  68% { fill:#4E7E8F; }
+  72% { fill:#776167; }
+  76% { fill:#893E45; }
+  80% { fill:#6F3C4C; }
+  84% { fill:#543A52; }
+  88% { fill:#353758; }
+  92% { fill:#2A3351; }
+  96% { fill:#1E2E4A; }
+  100% { fill:#0F2944; }
+}
+
+/* Land - layer 4 animation */
+#landscape .layer4 {
+    fill:#BCBEC0;
+    animation-name: layer4;
+}
+@keyframes layer4 {
+  0% { fill:#0F2841; }
+  4% { fill:#1A2945; }
+  8% { fill:#232A48; }
+  12% { fill:#2B2A4B; }
+  16% { fill:#59335F; }
+  20% { fill:#7C336D; }
+  24% { fill:#B84089; }
+  28% { fill:#9683A5; }
+  32% { fill:#57B5C1; }
+  36% { fill:#4798BD; }
+  40% { fill:#4391BC; }
+  44% { fill:#408BBB; }
+  48% { fill:#3D85BA; }
+  52% { fill:#397FBA; }
+  56% { fill:#3E7DAC; }
+  60% { fill:#407AA1; }
+  64% { fill:#427896; }
+  68% { fill:#44768B; }
+  72% { fill:#705B66; }
+  76% { fill:#823B46; }
+  80% { fill:#69394B; }
+  84% { fill:#503650; }
+  88% { fill:#323454; }
+  92% { fill:#27304D; }
+  96% { fill:#1C2C47; }
+  100% { fill:#0F2841; }
+}
+
+/* Land - layer 5 animation */
+#landscape .layer5 {
+    fill:#A7A9AC;
+    animation-name: layer5;
+}
+
+@keyframes layer5 {
+  0% { fill:#0E263F; }
+  4% { fill:#192742; }
+  8% { fill:#212745; }
+  12% { fill:#292848; }
+  16% { fill:#51305B; }
+  20% { fill:#6E3068; }
+  24% { fill:#A23B82; }
+  28% { fill:#84799F; }
+  32% { fill:#44AABC; }
+  36% { fill:#3A8DB3; }
+  40% { fill:#3887B1; }
+  44% { fill:#3680AF; }
+  48% { fill:#347AAD; }
+  52% { fill:#3273AB; }
+  56% { fill:#3672A1; }
+  60% { fill:#387198; }
+  64% { fill:#396F90; }
+  68% { fill:#3A6E87; }
+  72% { fill:#695565; }
+  76% { fill:#7C3747; }
+  80% { fill:#64354A; }
+  84% { fill:#4B334D; }
+  88% { fill:#2E314F; }
+  92% { fill:#252D4A; }
+  96% { fill:#1B2A44; }
+  100% { fill:#0E263F; }
+}
+
+/* Land - layer 6 animation */
+#landscape .layer6 {
+    fill:#939598;
+    animation-name: layer6;
+}
+
+@keyframes layer6 {
+  0% { fill:#0E243C; }
+  4% { fill:#18253F; }
+  8% { fill:#202542; }
+  12% { fill:#262544; }
+  16% { fill:#482C56; }
+  20% { fill:#612D63; }
+  24% { fill:#8D357C; }
+  28% { fill:#6F719B; }
+  32% { fill:#00A1BC; }
+  36% { fill:#2583A8; }
+  40% { fill:#287CA3; }
+  44% { fill:#2A759F; }
+  48% { fill:#2D6F9A; }
+  52% { fill:#2E6895; }
+  56% { fill:#2F6891; }
+  60% { fill:#30678D; }
+  64% { fill:#306788; }
+  68% { fill:#306683; }
+  72% { fill:#625064; }
+  76% { fill:#753347; }
+  80% { fill:#5E3249; }
+  84% { fill:#47304A; }
+  88% { fill:#2B2E4B; }
+  92% { fill:#222A46; }
+  96% { fill:#192741; }
+  100% { fill:#0E243C; }
+}
+
+/* Land - layer 7 animation */
+#landscape .layer7 {
+    fill:#808285;
+    animation-name: layer7;
+}
+
+@keyframes layer7 {
+  0% { fill:#102237; }
+  4% { fill:#18223A; }
+  8% { fill:#1E233D; }
+  12% { fill:#242340; }
+  16% { fill:#402952; }
+  20% { fill:#542A5E; }
+  24% { fill:#793177; }
+  28% { fill:#5F668F; }
+  32% { fill:#0A8FA7; }
+  36% { fill:#237595; }
+  40% { fill:#256F90; }
+  44% { fill:#27698C; }
+  48% { fill:#286387; }
+  52% { fill:#285D82; }
+  56% { fill:#285E82; }
+  60% { fill:#285F81; }
+  64% { fill:#275F81; }
+  68% { fill:#255F7F; }
+  72% { fill:#574A63; }
+  76% { fill:#683148; }
+  80% { fill:#542F48; }
+  84% { fill:#3F2D47; }
+  88% { fill:#242742; }
+  92% { fill:#202841; }
+  96% { fill:#19253C; }
+  100% { fill:#102237; }
+}
+
+/* Land - layer 8 animation */
+#landscape .layer8 {
+    fill:#6D6E71;
+    animation-name: layer8;    
+}
+
+@keyframes layer8 {
+  0% { fill:#111F31; }
+  4% { fill:#172034; }
+  8% { fill:#1C2037; }
+  12% { fill:#20213B; }
+  16% { fill:#37274C; }
+  20% { fill:#472759; }
+  24% { fill:#662C71; }
+  28% { fill:#4F5C83; }
+  32% { fill:#118095; }
+  36% { fill:#206983; }
+  40% { fill:#21637E; }
+  44% { fill:#225D7A; }
+  48% { fill:#225775; }
+  52% { fill:#225270; }
+  56% { fill:#235372; }
+  60% { fill:#235574; }
+  64% { fill:#235675; }
+  68% { fill:#235676; }
+  72% { fill:#4C445F; }
+  76% { fill:#5B2F49; }
+  80% { fill:#4A2C47; }
+  84% { fill:#382A44; }
+  88% { fill:#242742; }
+  92% { fill:#1E253D; }
+  96% { fill:#182338; }
+  100% { fill:#111F31; }
+}
+
+/* Land - layer 9 animation */
+#landscape .layer9 {
+    fill:#58595B;
+    animation-name: layer9;
+}
+
+@keyframes layer9 {
+  0% { fill:#111C2B; }
+  4% { fill:#151D2E; }
+  8% { fill:#191E32; }
+  12% { fill:#1D1E35; }
+  16% { fill:#2F2447; }
+  20% { fill:#3A2454; }
+  24% { fill:#52296C; }
+  28% { fill:#405279; }
+  32% { fill:#137185; }
+  36% { fill:#1C5C72; }
+  40% { fill:#1C576E; }
+  44% { fill:#1C5269; }
+  48% { fill:#1B4C64; }
+  52% { fill:#1A475F; }
+  56% { fill:#1C4A63; }
+  60% { fill:#1E4B67; }
+  64% { fill:#1F4D6A; }
+  68% { fill:#204E6D; }
+  72% { fill:#413E5A; }
+  76% { fill:#4E2D49; }
+  80% { fill:#402A45; }
+  84% { fill:#312742; }
+  88% { fill:#20243E; }
+  92% { fill:#1B2238; }
+  96% { fill:#171F32; }
+  100% { fill:#111C2B; }
+}
+
+/* Land - layer 10 animation */
+#landscape .layer10 {
+    fill:#414042;
+    animation-name: layer10;
+}
+
+@keyframes layer10 {
+  0% { fill:#101825; }
+  4% { fill:#131928; }
+  8% { fill:#161A2C; }
+  12% { fill:#181B2F; }
+  16% { fill:#262141; }
+  20% { fill:#2C214F; }
+  24% { fill:#3D2567; }
+  28% { fill:#30486F; }
+  32% { fill:#136476; }
+  36% { fill:#165163; }
+  40% { fill:#154C5E; }
+  44% { fill:#144759; }
+  48% { fill:#134254; }
+  52% { fill:#113D4F; }
+  56% { fill:#154055; }
+  60% { fill:#19425A; }
+  64% { fill:#1B445F; }
+  68% { fill:#1E4564; }
+  72% { fill:#363856; }
+  76% { fill:#412A49; }
+  80% { fill:#352744; }
+  84% { fill:#29243F; }
+  88% { fill:#1C203A; }
+  92% { fill:#191F33; }
+  96% { fill:#151C2C; }
+  100% { fill:#101825; }
+}
+
+/* Land - layer 11 animation */
+#landscape .layer11 {
+    fill:#232323;
+    animation-name: layer11;
+}
+@keyframes layer11 {
+  0% { fill:#0D141E;  transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  4% { fill:#101522;  transform: skew(1deg, 0deg) translate3d(-0.5%, 0px, 0px);}
+  8% { fill:#121726;  transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  12% { fill:#141829; transform: skew(-1deg, 0deg) translate3d(0.5%, 0px, 0px);}
+  16% { fill:#1C1E3C; transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  20% { fill:#22214F; transform: skew(1deg, 0deg) translate3d(-0.5%, 0px, 0px);}
+  24% { fill:#262262; transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  28% { fill:#1D4065; transform: skew(-1deg, 0deg) translate3d(0.5%, 0px, 0px);}
+  32% { fill:#125768; transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  36% { fill:#1E4553; transform: skew(1deg, 0deg) translate3d(-0.5%, 0px, 0px);}
+  40% { fill:#1E404E; transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  44% { fill:#1E3B49; transform: skew(-1deg, 0deg) translate3d(0.5%, 0px, 0px);}
+  48% { fill:#1D3643; transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  52% { fill:#1C313E; transform: skew(1deg, 0deg) translate3d(-0.5%, 0px, 0px);}
+  56% { fill:#1C3344; transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  60% { fill:#1C3449; transform: skew(-1deg, 0deg) translate3d(0.5%, 0px, 0px);}
+  64% { fill:#1B344F; transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  68% { fill:#183454; transform: skew(1deg, 0deg) translate3d(-0.5%, 0px, 0px);}
+  72% { fill:#242B4A; transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  76% { fill:#2B2241; transform: skew(-1deg, 0deg) translate3d(0.5%, 0px, 0px);}
+  80% { fill:#24203C; transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  84% { fill:#1D1D37; }
+  88% { fill:#151A32; }
+  92% { fill:#14192C; }
+  96% { fill:#111725; }
+  100% { fill:#0D141E; }
+}

@@ -1,0 +1,30 @@
+.sky {
+  height: 60%;
+  margin-bottom: -6px;
+  position: absolute;
+  top: 0px;
+  z-index: 2;
+}
+
+.sky-rect{
+  height:100%;
+}
+
+.sky-reflection, #sunMask {
+  height: 40%;
+  position: absolute;
+  top: 60%;
+  z-index: 4;
+}
+
+.sky-reflection-rect{
+  height:100%;
+}
+
+#sunMask {
+  background: #0D133A;
+  height: 40%;
+  position: absolute;
+  top: 60%;
+  width: 100%;
+}

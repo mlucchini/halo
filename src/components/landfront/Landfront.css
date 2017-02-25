@@ -1,0 +1,37 @@
+#bottom {
+  animation-name: bottomFill;
+  height: 100%;
+  position: absolute;
+  top: 88%;
+  width: 100%;
+  z-index: 5;
+}
+
+@keyframes bottomFill {
+  0% { background:#0D141E; }
+  4% { background:#101522; }
+  8% { background:#121726; }
+  12% { background:#141829; }
+  16% { background:#1C1E3C; }
+  20% { background:#22214F; }
+  24% { background:#262262; }
+  28% { background:#1D4065; }
+  32% { background:#125768; }
+  36% { background:#1E4553; }
+  40% { background:#1E404E; }
+  44% { background:#1E3B49; }
+  48% { background:#1D3643; }
+  52% { background:#1C313E; }
+  56% { background:#1C3344; }
+  60% { background:#1C3449; }
+  64% { background:#1B344F; }
+  68% { background:#183454; }
+  72% { background:#242B4A; }
+  76% { background:#2B2241; }
+  80% { background:#24203C; }
+  84% { background:#1D1D37; }
+  88% { background:#151A32; }
+  92% { background:#14192C; }
+  96% { background:#111725; }
+  100% { background:#0D141E; }
+}

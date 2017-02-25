@@ -1,0 +1,29 @@
+.clouds {
+  position: absolute;
+  width: 100%;
+  z-index: 4;  mix-blend-mode: screen;
+  height: 100%;
+}
+
+.clouds svg {
+  width: 60%;
+  position: absolute;
+  top: 51%;
+  filter: blur(2px);
+  opacity: 0.4;
+  left: -60%;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: clouds;
+}
+
+@keyframes clouds {
+  0% {transform: translate3d(110%, 0px, 0px);opacity: 0.0;}
+  19%{opacity: 0.0;}
+  25%{opacity: 0.2;}
+  50%{opacity: 0.2;}
+  75%{opacity: 0.0;}
+  90%{opacity: 0.0;}
+  100% {transform: translate3d(150%, 0px, 0px);opacity: 0.0}
+}
