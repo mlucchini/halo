@@ -19,8 +19,7 @@ body {
   font-size: 1em;
   line-height: 1.4;
   position: relative;
-  opacity:1;
-  transition: all 8s ease;
+  opacity: 1;
 }
 
 img {
