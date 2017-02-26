@@ -11,4 +11,8 @@ const Sky = ({ hours }) => (
   </div>
 )
 
+Sky.propTypes = {
+  hours: React.PropTypes.number
+}
+
 export default Sky

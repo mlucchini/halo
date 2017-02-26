@@ -15,4 +15,8 @@ const Twinkles = ({ hours }) => (
   </div>
 )
 
+Twinkles.propTypes = {
+  hours: React.PropTypes.number
+}
+
 export default Twinkles

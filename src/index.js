@@ -6,6 +6,9 @@ import { createStore, applyMiddleware } from 'redux'
 import { fetchCityWeather } from './actions'
 import weather from './reducers'
 import App from './App'
+import injectTapEventPlugin from 'react-tap-event-plugin'
+
+injectTapEventPlugin()
 
 const store = createStore(weather, applyMiddleware(thunkMiddleware))
 

@@ -20,4 +20,8 @@ const Sun = ({ hours }) => (
   </div>
 )
 
+Sun.propTypes = {
+  hours: React.PropTypes.number
+}
+
 export default Sun

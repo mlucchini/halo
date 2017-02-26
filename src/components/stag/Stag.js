@@ -13,4 +13,8 @@ const Stag = ({ hours }) => (
   </div>
 )
 
+Stag.propTypes = {
+  hours: React.PropTypes.number
+}
+
 export default Stag

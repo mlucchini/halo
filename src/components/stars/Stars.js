@@ -15,4 +15,8 @@ const Stars = ({ hours }) => (
   </div>
 )
 
+Stars.propTypes = {
+  hours: React.PropTypes.number
+}
+
 export default Stars

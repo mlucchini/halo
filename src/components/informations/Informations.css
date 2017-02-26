@@ -6,10 +6,16 @@
   padding: 2em;
 }
 
-.city {
+.informations .text-field-override,
+.informations .text-field-override div,
+.informations .text-field-override input {
   font-size: 1em;
+  font-family: 'Open Sans', sans-serif !important;
+  color: white !important;
+  bottom: 0 !important;
+  height: inherit !important;
 }
 
-.temperature {
+.informations .temperature {
   font-size: 2em;
 }

@@ -7,4 +7,8 @@ const Trees = ({ hours }) => (
   <Isvg src={trees} uniquifyIDs={false} className={`hour${hours}`} />
 )
 
+Trees.propTypes = {
+  hours: React.PropTypes.number
+}
+
 export default Trees

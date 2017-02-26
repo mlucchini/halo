@@ -10,6 +10,7 @@ import Clouds from './containers/Clouds'
 import Vignette from './containers/Vignette'
 import Twinkles from './containers/Twinkles'
 import Informations from './containers/Informations'
+import Menu from './containers/Menu'
 import './App.css'
 
 const App = () => (
@@ -25,6 +26,7 @@ const App = () => (
     <Vignette />
     <Twinkles />
     <Informations />
+    <Menu />
   </div>
 )
 
