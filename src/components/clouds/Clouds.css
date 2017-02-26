@@ -1,14 +1,14 @@
 .clouds {
   position: absolute;
   width: 100%;
-  z-index: 4;  mix-blend-mode: screen;
+  z-index: 10;
   height: 100%;
 }
 
 .clouds svg {
   width: 60%;
   position: absolute;
-  top: 51%;
+  top: 15%;
   filter: blur(2px);
   opacity: 0.4;
   left: -60%;
@@ -19,11 +19,93 @@
 }
 
 @keyframes clouds {
-  0% {transform: translate3d(110%, 0px, 0px);opacity: 0.0;}
-  19%{opacity: 0.0;}
-  25%{opacity: 0.2;}
-  50%{opacity: 0.2;}
-  75%{opacity: 0.0;}
-  90%{opacity: 0.0;}
-  100% {transform: translate3d(150%, 0px, 0px);opacity: 0.0}
+  0% { transform: translate3d(110%, 0px, 0px); }
+  100% { transform: translate3d(125%, 0px, 0px); }
+}
+
+.clouds .cloud0 svg {
+  width: 60%;
+  top: 15%;
+  filter: blur(2px);
+  opacity: 0.4;
+  left: -60%;
+}
+
+.clouds .cloud1 svg {
+  width: 60%;
+  height: 50%;
+  left: -50%;
+  top: 10%;
+  opacity: 0.6;
+}
+
+.clouds .cloud2 svg {
+  width: 70%;
+  height: 50%;
+  left: -75%;
+  top: 5%;
+  opacity: 0.8;
+}
+
+.clouds .cloud3 svg {
+  width: 80%;
+  height: 50%;
+  left: -80%;
+  top: -10%;
+  opacity: 0.7;
+  filter: blur(3px);
+}
+
+.clouds .cloud4 svg {
+  width: 40%;
+  height: 50%;
+  left: -45%;
+  top: -20%;
+  opacity: 0.7;
+  filter: blur(3px);
+}
+
+.clouds .cloud5 svg {
+  width: 60%;
+  height: 90%;
+  left: -45%;
+  top: 5%;
+  opacity: 0.6;
+  filter: blur(2px);
+}
+
+.clouds .cloud6 svg {
+  width: 120%;
+  height: 90%;
+  left: -155%;
+  top: -6%;
+  opacity: 0.8;
+  filter: blur(2px);
+}
+
+.clouds .cloud7 svg {
+  width: 120%;
+  height: 90%;
+  left: -155%;
+  top: -35%;
+  opacity: 0.8;
+  filter: blur(4px);
+}
+
+.clouds .cloud8 svg {
+  width: 150%;
+  height: 90%;
+  left: -230%;
+  top: -20%;
+  opacity: 0.5;
+  filter: blur(4px);
+}
+
+.clouds .cloud9 svg {
+  width: 40%;
+  height: 50%;
+  left: -12%;
+  top: 35%;
+  opacity: 0.5;
+  filter: blur(2px);
 }
