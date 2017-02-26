@@ -3,7 +3,7 @@
   margin-bottom: -6px;
   position: absolute;
   top: 0px;
-  z-index: 2;
+  z-index: 1;
 }
 
 .sky-rect {
@@ -14,7 +14,7 @@
   height: 40%;
   position: absolute;
   top: 60%;
-  z-index: 4;
+  z-index: 1;
 }
 
 .sky-reflection-rect {

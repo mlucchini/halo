@@ -30,12 +30,12 @@ svg:not(:root) {
 @media screen and (min-aspect-ratio: 3/1) and (max-aspect-ratio: 6/1) {
   body{background: rgb(31, 60, 80);}
   body:before{content:'Aspect ratio out of range - too wide';color: white;text-align: center;width: 100%;height: 100%;display: block;position: absolute;top: 50%;}
-  .sky, .sky-reflection, #sunMask, #landscape, #landfront, #stag, .controls, .stars, .sunMask, .clouds, .lighting, .vignette, .twinkleWrap,.spriteWrap{display: none;}
+  .sky, .sky-reflection, #sunMask, #landscape, #trees, #landfront, #stag, .controls, .stars, .sunMask, .clouds, .lighting, .vignette, .twinkleWrap,.spriteWrap{display: none;}
 }
 @media screen and (min-aspect-ratio: 14/5) and (max-aspect-ratio: 7/2) {
   .twinkles{}
   .sky-reflection, #sunMask{height: 42%;}
-  #landscape{bottom: -3%;}
+  #landscape, #trees{bottom: -3%;}
   #landfront{top: 101%;}
   #stag{bottom: 3%;}
   .sun{top: -570%;}
@@ -44,7 +44,7 @@ svg:not(:root) {
 @media screen and (min-aspect-ratio: 5/2) and (max-aspect-ratio: 14/5) {
   .twinkles{top: 75%;}
   .sky-reflection, #sunMask{}
-  #landscape{bottom: 1%;}
+  #landscape, #trees{bottom: 1%;}
   #landfront{top: 98%;}
   #stag{bottom: 7%;}
   .sun{top: -532%;}
@@ -52,7 +52,7 @@ svg:not(:root) {
 @media screen and (min-aspect-ratio: 9/4) and (max-aspect-ratio: 5/2) {
   .twinkles{top: 75%;}
   .sky-reflection, #sunMask{height: 40%;}
-  #landscape{bottom: 5%;}
+  #landscape, #trees{bottom: 5%;}
   #landfront{top: 94%;}
   #stag{bottom: 10%;}
   .sun{top: -452%;}
@@ -60,7 +60,7 @@ svg:not(:root) {
 @media screen and (min-aspect-ratio: 11/5) and (max-aspect-ratio: 9/4) {
   .twinkles{}
   .sky-reflection, #sunMask{}
-  #landscape{bottom: 6%;}
+  #landscape, #trees{bottom: 6%;}
   #landfront{top: 93%;}
   #stag{
   bottom: 11%;}
@@ -69,7 +69,7 @@ svg:not(:root) {
 @media screen and (min-aspect-ratio: 13/6) and (max-aspect-ratio: 11/5) {
   .twinkles{}
   .sky-reflection, #sunMask{height: 37%;}
-  #landscape{bottom: 6%;}
+  #landscape, #trees{bottom: 6%;}
   #landfront{top: 93%;}
   #stag{bottom: 11%;}
   .sun{}
@@ -77,7 +77,7 @@ svg:not(:root) {
 @media screen and (min-aspect-ratio: 15/7) and (max-aspect-ratio: 13/6) {
   .twinkles{}
   .sky-reflection, #sunMask{height: 31%;}
-  #landscape{bottom: 7%;}
+  #landscape, #trees{bottom: 7%;}
   #landfront{top: 92%;}
   #stag{bottom: 12%;}
   .sun{}
@@ -85,7 +85,7 @@ svg:not(:root) {
 @media screen and (min-aspect-ratio: 2/1) and (max-aspect-ratio: 15/7) {
   .twinkles{}
   .sky-reflection, #sunMask{height: 31%;}
-  #landscape{bottom: 8%;}
+  #landscape, #trees{bottom: 8%;}
   #landfront{top: 91%;}
   #stag{bottom: 12%;}
   .sun{top: -370%;}
@@ -93,7 +93,7 @@ svg:not(:root) {
 @media screen and (min-aspect-ratio: 15/8) and (max-aspect-ratio: 2/1) {
   .twinkles{}
   .sky-reflection, #sunMask{height: 30%;}
-  #landscape{}
+  #landscape, #trees{}
   #landfront{}
   #stag{bottom: 15%;}
   .sun{}
@@ -101,7 +101,7 @@ svg:not(:root) {
 @media screen and (min-aspect-ratio: 7/4) and (max-aspect-ratio: 15/8) {
   .twinkles{top: 71%;}
   .sky-reflection, #sunMask{height: 28%;}
-  #landscape{bottom: 13%;}
+  #landscape, #trees{bottom: 13%;}
   #landfront{top: 86%;}
   #stag{bottom: 17%;}
   .sun{top: -300%;}
@@ -109,7 +109,7 @@ svg:not(:root) {
 @media screen and (min-aspect-ratio: 11/7) and (max-aspect-ratio: 7/4) {
   .twinkles{top: 69%;}
   .sky-reflection, #sunMask{height: 24%;}
-  #landscape{bottom: 16%;}
+  #landscape, #trees{bottom: 16%;}
   #landfront{top: 83%;}
   #stag{bottom: 20%;}
   .sun{top: -270%;}
@@ -117,7 +117,7 @@ svg:not(:root) {
 @media screen and (min-aspect-ratio: 13/9) and (max-aspect-ratio: 11/7) {
   .twinkles{top: 68%;}
   .sky-reflection, #sunMask{height: 22%;}
-  #landscape{bottom: 18%;}
+  #landscape, #trees{bottom: 18%;}
   #landfront{top: 81%;}
   #stag{bottom: 21.6%;}
   .sun{top: -240%;}
@@ -125,7 +125,7 @@ svg:not(:root) {
 @media screen and (min-aspect-ratio: 4/3) and (max-aspect-ratio: 13/9) {
   .twinkles{top: 66%;}
   .sky-reflection, #sunMask{height: 19%;}
-  #landscape{bottom: 22%;}
+  #landscape, #trees{bottom: 22%;}
   #landfront{top: 77%;}
   #stag{bottom: 25%;}
   .sun{top: -230%;}
@@ -133,7 +133,7 @@ svg:not(:root) {
 @media screen and (min-aspect-ratio: 8/7) and (max-aspect-ratio: 4/3) {
   .twinkles{top: 65%;}
   .sky-reflection, #sunMask{height: 18%;}
-  #landscape{bottom: 23%;}
+  #landscape, #trees{bottom: 23%;}
   #landfront{top: 76%;}
   #stag{bottom: 25.3%;}
   .sun{top: -180%;}
@@ -141,7 +141,7 @@ svg:not(:root) {
 @media screen and (min-aspect-ratio: 14/15) and (max-aspect-ratio: 8/7) {
   .twinkles{top: 63%;width: 3%;}
   .sky-reflection, #sunMask{height: 17%;}
-  #landscape{bottom: 26%;}
+  #landscape, #trees{bottom: 26%;}
   #landfront{top: 73.8%;}
   #stag{bottom: 28.3%;}
   .sun{top: -140%;}
@@ -149,7 +149,7 @@ svg:not(:root) {
 @media screen and (min-aspect-ratio: 5/6) and (max-aspect-ratio: 14/15) {
   .twinkles{top: 63%; width: 3%;}
   .sky-reflection, #sunMask{height: 13%;}
-  #landscape{bottom: 28%;}
+  #landscape, #trees{bottom: 28%;}
   #landfront{top: 71.5%;}
   #stag{bottom: 30%;}
   .sun{top: -110%;}
@@ -157,7 +157,7 @@ svg:not(:root) {
 @media screen and (min-aspect-ratio: 7/10) and (max-aspect-ratio: 5/6) {
   .twinkles{top: 62%; width: 3%;}
   .sky-reflection, #sunMask{height: 11%;}
-  #landscape{bottom: 30%;}
+  #landscape, #trees{bottom: 30%;}
   #landfront{top: 69.6%;}
   #stag{bottom: 31.8%;}
   .sun{top: -70%;}
@@ -165,7 +165,7 @@ svg:not(:root) {
 @media screen and (min-aspect-ratio: 5/9) and (max-aspect-ratio: 7/10) {
   .twinkles{top: 62%; width: 3%;}
   .sky-reflection, #sunMask{height: 8%;}
-  #landscape{bottom: 32%;}
+  #landscape, #trees{bottom: 32%;}
   #landfront{top: 67.5%;}
   #stag{bottom: 33.5%;}
   .sun{top: -55%;}
@@ -173,5 +173,5 @@ svg:not(:root) {
 @media screen and (min-aspect-ratio: 1/10) and (max-aspect-ratio: 5/9) {
   body{background: rgb(31, 60, 80);}
   body:before{content:'Aspect ratio out of range - too narrow';color: white;text-align: center;width: 100%;height: 100%;display: block;position: absolute;top: 50%;}
-  .sky, .sky-reflection, #sunMask, #landscape, #landfront, #stag, .controls, .stars, .sunMask, .clouds, .lighting, .vignette, .twinkleWrap,.spriteWrap{display: none;}
+  .sky, .sky-reflection, #sunMask, #landscape, #trees, #landfront, #stag, .controls, .stars, .sunMask, .clouds, .lighting, .vignette, .twinkleWrap,.spriteWrap{display: none;}
 }

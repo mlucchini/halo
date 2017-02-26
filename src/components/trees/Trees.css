@@ -1,0 +1,59 @@
+#trees {
+  width: 100.02%;
+  position: absolute;
+  bottom: 11%;
+  z-index: 5;
+}
+
+.hour0 .layerTree { fill:#0D141E; }
+.hour1 .layerTree { fill:#101522; }
+.hour2 .layerTree { fill:#121726; }
+.hour3 .layerTree { fill:#141829; }
+.hour4 .layerTree { fill:#1C1E3C; }
+.hour5 .layerTree { fill:#22214F; }
+.hour6 .layerTree { fill:#262262; }
+.hour7 .layerTree { fill:#1D4065; }
+.hour8 .layerTree { fill:#125768; }
+.hour9 .layerTree { fill:#1E4553; }
+.hour10 .layerTree { fill:#1E404E; }
+.hour11 .layerTree { fill:#1E3B49; }
+.hour12 .layerTree { fill:#1D3643; }
+.hour13 .layerTree { fill:#1C313E; }
+.hour14 .layerTree { fill:#1C3344; }
+.hour15 .layerTree { fill:#1C3449; }
+.hour16 .layerTree { fill:#1B344F; }
+.hour17 .layerTree { fill:#183454; }
+.hour18 .layerTree { fill:#242B4A; }
+.hour19 .layerTree { fill:#2B2241; }
+.hour20 .layerTree { fill:#24203C; }
+.hour21 .layerTree { fill:#1D1D37; }
+.hour22 .layerTree { fill:#151A32; }
+.hour23 .layerTree { fill:#14192C; }
+
+#trees .layerTree {
+  animation: layerTree 60s linear infinite;
+}
+
+@keyframes layerTree {
+  0% { transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  4% { transform: skew(1deg, 0deg) translate3d(-0.5%, 0px, 0px);}
+  8% { transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  12% { transform: skew(-1deg, 0deg) translate3d(0.5%, 0px, 0px);}
+  16% { transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  20% { transform: skew(1deg, 0deg) translate3d(-0.5%, 0px, 0px);}
+  24% { transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  28% { transform: skew(-1deg, 0deg) translate3d(0.5%, 0px, 0px);}
+  32% { transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  36% { transform: skew(1deg, 0deg) translate3d(-0.5%, 0px, 0px);}
+  40% { transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  44% { transform: skew(-1deg, 0deg) translate3d(0.5%, 0px, 0px);}
+  48% { transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  52% { transform: skew(1deg, 0deg) translate3d(-0.5%, 0px, 0px);}
+  56% { transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  60% { transform: skew(-1deg, 0deg) translate3d(0.5%, 0px, 0px);}
+  64% { transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  68% { transform: skew(1deg, 0deg) translate3d(-0.5%, 0px, 0px);}
+  72% { transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+  76% { transform: skew(-1deg, 0deg) translate3d(0.5%, 0px, 0px);}
+  80% { transform: skew(0deg, 0deg) translate3d(0px, 0px, 0px);}
+}

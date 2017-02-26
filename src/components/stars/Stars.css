@@ -55,3 +55,28 @@
 @keyframes starsReflect {
   100% {transform: rotate(360deg);}
 }
+
+.hour0.stars { opacity: 1.0; }
+.hour1.stars { opacity: 1.0; }
+.hour2.stars { opacity: 1.0; }
+.hour3.stars { opacity: 1.0; }
+.hour4.stars { opacity: 0.8; }
+.hour5.stars { opacity: 0.5; }
+.hour6.stars { opacity: 0.0; }
+.hour7.stars { opacity: 0.0; }
+.hour8.stars { opacity: 0.0; }
+.hour9.stars { opacity: 0.0; }
+.hour10.stars { opacity: 0.0; }
+.hour11.stars { opacity: 0.0; }
+.hour12.stars { opacity: 0.0; }
+.hour13.stars { opacity: 0.0; }
+.hour14.stars { opacity: 0.0; }
+.hour15.stars { opacity: 0.0; }
+.hour16.stars { opacity: 0.0; }
+.hour17.stars { opacity: 0.0; }
+.hour18.stars { opacity: 0.0; }
+.hour19.stars { opacity: 0.0; }
+.hour20.stars { opacity: 0.5; }
+.hour21.stars { opacity: 0.5; }
+.hour22.stars { opacity: 1.0; }
+.hour23.stars { opacity: 1.0; }

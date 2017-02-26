@@ -2,6 +2,7 @@ import React from 'react'
 import Stars from './containers/Stars'
 import Sky from './containers/Sky'
 import Landscape from './containers/Landscape'
+import Trees from './containers/Trees'
 import Landfront from './containers/Landfront'
 import Stag from './containers/Stag'
 import Sun from './containers/Sun'
@@ -16,6 +17,7 @@ const App = () => (
     <Stars />
     <Sky />
     <Landscape />
+    <Trees />
     <Landfront />
     <Stag />
     <Sun />
