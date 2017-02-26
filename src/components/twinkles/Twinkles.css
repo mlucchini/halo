@@ -15,16 +15,30 @@
     animation: twinkles;
 }
 
-@keyframes twinkles {
-  0% {transform: translate(450%, 0%);opacity:0.0;}
-  32%{opacity:0.0;}
-  34%{opacity:1.0;}
-  36.5% {transform: translate(450%, 0%);}
-  54% {transform: translate(0%, 0%);}
-  72% {transform: translate(-450%, 0%);opacity:1.0;}
-  78%{opacity:0.0;}
-  100% {transform: translate(-450%, 0%);opacity:0.0;}
-}
+.hour0 .twinkles { transform: translate(450%, 0%); opacity: 0.0; }
+.hour1 .twinkles { transform: translate(450%, 0%); opacity: 0.0; }
+.hour2 .twinkles { transform: translate(450%, 0%); opacity: 0.0; }
+.hour3 .twinkles { transform: translate(450%, 0%); opacity: 0.0; }
+.hour4 .twinkles { transform: translate(450%, 0%); opacity: 0.0; }
+.hour5 .twinkles { transform: translate(450%, 0%); opacity: 0.0; }
+.hour6 .twinkles { transform: translate(450%, 0%); opacity: 0.0; }
+.hour7 .twinkles { transform: translate(450%, 0%); opacity: 0.0; }
+.hour8 .twinkles { transform: translate(450%, 0%); opacity: 0.0; }
+.hour9 .twinkles { transform: translate(400%, 0%); opacity: 1.0; }
+.hour10 .twinkles { transform: translate(300%, 0%); opacity: 1.0; }
+.hour11 .twinkles { transform: translate(200%, 0%); opacity: 1.0; }
+.hour12 .twinkles { transform: translate(100%, 0%); opacity: 1.0; }
+.hour13 .twinkles { transform: translate(0%, 0%); opacity: 1.0; }
+.hour14 .twinkles { transform: translate(-100%, 0%); opacity: 1.0; }
+.hour15 .twinkles { transform: translate(-200%, 0%); opacity: 1.0; }
+.hour16 .twinkles { transform: translate(-300%, 0%); opacity: 1.0; }
+.hour17 .twinkles { transform: translate(-400%, 0%); opacity: 1.0; }
+.hour18 .twinkles { transform: translate(-450%, 0%); opacity: 0.5; }
+.hour19 .twinkles { transform: translate(-450%, 0%); opacity: 0.0; }
+.hour20 .twinkles { transform: translate(-450%, 0%); opacity: 0.0; }
+.hour21 .twinkles { transform: translate(-450%, 0%); opacity: 0.0; }
+.hour22 .twinkles { transform: translate(-450%, 0%); opacity: 0.0; }
+.hour23 .twinkles { transform: translate(-450%, 0%); opacity: 0.0; }
 
 .twinkles:before {
   content:' '; 

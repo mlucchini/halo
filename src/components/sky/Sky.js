@@ -4,10 +4,10 @@ import skyProject from './sky-project.svg'
 import skyReflect from './sky-reflect.svg'
 import './Sky.css'
 
-const Sky = () => (
+const Sky = ({ hours }) => (
   <div>
-    <Isvg src={skyProject} uniquifyIDs={false} />
-    <Isvg src={skyReflect} uniquifyIDs={false} />
+    <Isvg src={skyProject} uniquifyIDs={false} className={`hour${hours}`} />
+    <Isvg src={skyReflect} uniquifyIDs={false} className={`hour${hours}`} />
   </div>
 )
 

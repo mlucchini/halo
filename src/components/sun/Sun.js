@@ -3,8 +3,8 @@ import Isvg from 'react-inlinesvg'
 import flare from './flare.svg'
 import './Sun.css'
 
-const Sun = () => (
-  <div>
+const Sun = ({ hours }) => (
+  <div className={`hour${hours}`}>
     <div className="sunMask">
       <div className="suncrane">
         <div className="sun">

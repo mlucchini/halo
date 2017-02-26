@@ -12,85 +12,113 @@
   bottom: 0px;
 }
 
-.stags {
-  animation-name: stags;
-}
-
-@keyframes stags { 
-  0% { fill:#0D141E;}
-  4% { fill:#101522;}
-  8% { fill:#121726;}
-  12% { fill:#141829;}
-  16% { fill:#1C1E3C;}
-  20% { fill:#22214F;}
-  24% { fill:#262262;}
-  28% { fill:#1D4065;}
-  32% { fill:#125768;}
-  36% { fill:#1E4553;}
-  40% { fill:#1E404E;}
-  44% { fill:#1E3B49;}
-  48% { fill:#1D3643;}
-  52% { fill:#1C313E;}
-  56% { fill:#1C3344;}
-  60% { fill:#1C3449;}
-  64% { fill:#1B344F;}
-  68% { fill:#183454;}
-  72% { fill:#242B4A;}
-  76% { fill:#2B2241;}
-  80% { fill:#24203C;}
-  84% { fill:#1D1D37;}
-  88% { fill:#151A32;}
-  92% { fill:#14192C;}
-  96% { fill:#111725;}
-  100% { fill:#0D141E;}
-}
+.hour0 .stags { fill:#0D141E; }
+.hour1 .stags { fill:#101522; }
+.hour2 .stags { fill:#121726; }
+.hour3 .stags { fill:#141829; }
+.hour4 .stags { fill:#1C1E3C; }
+.hour5 .stags { fill:#22214F; }
+.hour6 .stags { fill:#262262; }
+.hour7 .stags { fill:#1D4065; }
+.hour8 .stags { fill:#125768; }
+.hour9 .stags { fill:#1E4553; }
+.hour10 .stags { fill:#1E404E; }
+.hour11 .stags { fill:#1E3B49; }
+.hour12 .stags { fill:#1D3643; }
+.hour13 .stags { fill:#1C313E; }
+.hour14 .stags { fill:#1C3344; }
+.hour15 .stags { fill:#1C3449; }
+.hour16 .stags { fill:#1B344F; }
+.hour17 .stags { fill:#183454; }
+.hour18 .stags { fill:#242B4A; }
+.hour19 .stags { fill:#2B2241; }
+.hour20 .stags { fill:#24203C; }
+.hour21 .stags { fill:#1D1D37; }
+.hour22 .stags { fill:#151A32; }
+.hour23 .stags { fill:#14192C; }
 
 .stag1 {
-  animation-name: stag_one;
   width: 108%;
   left: -20%;
 }
 
-@keyframes stag_one {
-  0% {opacity:1.0;}
-  15% {opacity:1.0;}
-  20% {opacity:0.0;}
-  90% {opacity:0.0;}
-  95% {opacity:1.0;}
-  100% {opacity:1.0;}
-}
+.hour0 .stag1 { opacity: 1.0; }
+.hour1 .stag1 { opacity: 1.0; }
+.hour2 .stag1 { opacity: 1.0; }
+.hour3 .stag1 { opacity: 1.0; }
+.hour4 .stag1 { opacity: 1.0; }
+.hour5 .stag1 { opacity: 1.0; }
+.hour6 .stag1 { opacity: 1.0; }
+.hour7 .stag1 { opacity: 1.0; }
+.hour8 .stag1 { opacity: 0.0; }
+.hour9 .stag1 { opacity: 0.0; }
+.hour10 .stag1 { opacity: 0.0; }
+.hour11 .stag1 { opacity: 0.0; }
+.hour12 .stag1 { opacity: 0.0; }
+.hour13 .stag1 { opacity: 0.0; }
+.hour14 .stag1 { opacity: 0.0; }
+.hour15 .stag1 { opacity: 0.0; }
+.hour16 .stag1 { opacity: 0.0; }
+.hour17 .stag1 { opacity: 0.0; }
+.hour18 .stag1 { opacity: 0.0; }
+.hour19 .stag1 { opacity: 0.0; }
+.hour20 .stag1 { opacity: 0.0; }
+.hour21 .stag1 { opacity: 0.0; }
+.hour22 .stag1 { opacity: 0.0; }
+.hour23 .stag1 { opacity: 0.0; }
 
-.stag2 {
-  animation-name: stag_two;
-}
-
-@keyframes stag_two {
-  0% {opacity:0.0;}
-  17% {opacity:0.0;}
-  20% {opacity:1.0;}
-  40% {opacity:1.0;}
-  45% {opacity:0.0;}
-  65% {opacity:0.0;}
-  70% {opacity:1.0;}
-  90% {opacity:1.0;}
-  95% {opacity:0.0;}
-  100% {opacity:0.0;}
-}
+.hour0 .stag2 { opacity: 0.0; }
+.hour1 .stag2 { opacity: 0.0; }
+.hour2 .stag2 { opacity: 0.0; }
+.hour3 .stag2 { opacity: 0.0; }
+.hour4 .stag2 { opacity: 0.0; }
+.hour5 .stag2 { opacity: 0.0; }
+.hour6 .stag2 { opacity: 0.0; }
+.hour7 .stag2 { opacity: 0.0; }
+.hour8 .stag2 { opacity: 1.0; }
+.hour9 .stag2 { opacity: 1.0; }
+.hour10 .stag2 { opacity: 1.0; }
+.hour11 .stag2 { opacity: 1.0; }
+.hour12 .stag2 { opacity: 1.0; }
+.hour13 .stag2 { opacity: 1.0; }
+.hour14 .stag2 { opacity: 1.0; }
+.hour15 .stag2 { opacity: 1.0; }
+.hour16 .stag2 { opacity: 0.0; }
+.hour17 .stag2 { opacity: 0.0; }
+.hour18 .stag2 { opacity: 0.0; }
+.hour19 .stag2 { opacity: 0.0; }
+.hour20 .stag2 { opacity: 0.0; }
+.hour21 .stag2 { opacity: 0.0; }
+.hour22 .stag2 { opacity: 0.0; }
+.hour23 .stag2 { opacity: 0.0; }
 
 .stag3 {
-  animation-name: stag_three;
   width: 144%;
   left: -10%;
   bottom: -3%;
 }
 
-@keyframes stag_three {
-  0% {opacity:0.0;}
-  15% {opacity:0.0;}
-  20% {opacity:0.0;}
-  40% {opacity:0.0;}
-  45% {opacity:1.0;}
-  65% {opacity:1.0;}
-  70% {opacity:0.0;}
-  100% {opacity:0.0;}
-}
+.hour0 .stag3 { opacity: 0.0; }
+.hour1 .stag3 { opacity: 0.0; }
+.hour2 .stag3 { opacity: 0.0; }
+.hour3 .stag3 { opacity: 0.0; }
+.hour4 .stag3 { opacity: 0.0; }
+.hour5 .stag3 { opacity: 0.0; }
+.hour6 .stag3 { opacity: 0.0; }
+.hour7 .stag3 { opacity: 0.0; }
+.hour8 .stag3 { opacity: 0.0; }
+.hour9 .stag3 { opacity: 0.0; }
+.hour10 .stag3 { opacity: 0.0; }
+.hour11 .stag3 { opacity: 0.0; }
+.hour12 .stag3 { opacity: 0.0; }
+.hour13 .stag3 { opacity: 0.0; }
+.hour14 .stag3 { opacity: 0.0; }
+.hour15 .stag3 { opacity: 0.0; }
+.hour16 .stag3 { opacity: 1.0; }
+.hour17 .stag3 { opacity: 1.0; }
+.hour18 .stag3 { opacity: 1.0; }
+.hour19 .stag3 { opacity: 1.0; }
+.hour20 .stag3 { opacity: 1.0; }
+.hour21 .stag3 { opacity: 1.0; }
+.hour22 .stag3 { opacity: 1.0; }
+.hour23 .stag3 { opacity: 1.0; }

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Informations.css'
 
-const Informations = ({ city, temperature }) => (
+const Informations = ({ city, country, temperature }) => (
   <div className="informations">
     <div className="city">
       { city }

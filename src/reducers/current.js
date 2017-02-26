@@ -2,6 +2,8 @@ import { RECEIVE_CITY_WEATHER } from '../actions/types'
 
 const currentDefault = {
   city: '',
+  country: '',
+  hours: Math.NaN,
   temperature: Math.Nan,
   wind: Math.Nan,
   clouds: Math.Nan,
@@ -15,6 +17,8 @@ const current = (state = currentDefault, action) => {
       const r = action.data
       return {
         city: r.name,
+        country: r.sys.country,
+        hours: new Date(r.dt * 1000).getHours(),
         temperature: Math.round(r.main.temp),
         wind: r.wind.speed,
         clouds: r.clouds.all,

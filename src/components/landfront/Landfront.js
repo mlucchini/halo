@@ -1,8 +1,8 @@
 import React from 'react'
 import './Landfront.css'
 
-const Landfront = () => (
-  <section id="landfront"></section>
+const Landfront = ({ hours }) => (
+  <section id="landfront" className={`hour${hours}`}></section>
 )
 
 export default Landfront

@@ -6,25 +6,92 @@
   z-index: 2;
 }
 
-.sky-rect{
-  height:100%;
+.sky-rect {
+  height: 100%;
 }
 
-.sky-reflection, #sunMask {
+.sky-reflection {
   height: 40%;
   position: absolute;
   top: 60%;
   z-index: 4;
 }
 
-.sky-reflection-rect{
-  height:100%;
+.sky-reflection-rect {
+  height: 100%;
 }
 
-#sunMask {
-  background: #0D133A;
-  height: 40%;
-  position: absolute;
-  top: 60%;
-  width: 100%;
-}
+.hour0 .sky #skyZenith, .hour0 .sky-reflection #reflectZenith { stop-color: rgba(0,19,48,0); }
+.hour1 .sky #skyZenith, .hour1 .sky-reflection #reflectZenith { stop-color: rgba(0,19,48,0); }
+.hour2 .sky #skyZenith, .hour2 .sky-reflection #reflectZenith { stop-color: rgba(0,19,48,0); }
+.hour3 .sky #skyZenith, .hour3 .sky-reflection #reflectZenith { stop-color: rgba(0,19,48,0); }
+.hour4 .sky #skyZenith, .hour4 .sky-reflection #reflectZenith { stop-color: rgba(37,32,70,.33); }
+.hour5 .sky #skyZenith, .hour5 .sky-reflection #reflectZenith { stop-color: rgba(69,40,92,0.67); }
+.hour6 .sky #skyZenith, .hour6 .sky-reflection #reflectZenith { stop-color: rgba(102,44,113,1); }
+.hour7 .sky #skyZenith, .hour7 .sky-reflection #reflectZenith { stop-color: rgba(94,112,155,1); }
+.hour8 .sky #skyZenith, .hour8 .sky-reflection #reflectZenith { stop-color: rgba(0,137,185,1); }
+.hour9 .sky #skyZenith, .hour9 .sky-reflection #reflectZenith { stop-color: rgba(9,127,182,1); }
+.hour10 .sky #skyZenith, .hour10 .sky-reflection #reflectZenith { stop-color: rgba(20,116,178,1); }
+.hour11 .sky #skyZenith, .hour11 .sky-reflection #reflectZenith { stop-color: rgba(27,106,175,1); }
+.hour12 .sky #skyZenith, .hour12 .sky-reflection #reflectZenith { stop-color: rgba(29,101,173,1); }
+.hour13 .sky #skyZenith, .hour13 .sky-reflection #reflectZenith { stop-color: rgba(31,96,173,1); }
+.hour14 .sky #skyZenith, .hour14 .sky-reflection #reflectZenith { stop-color: rgba(47,100,170,1); }
+.hour15 .sky #skyZenith, .hour15 .sky-reflection #reflectZenith { stop-color: rgba(66,119,177,1); }
+.hour16 .sky #skyZenith, .hour16 .sky-reflection #reflectZenith { stop-color: rgba(73,119,174,1); }
+.hour17 .sky #skyZenith, .hour17 .sky-reflection #reflectZenith { stop-color: rgba(79,120,174,1); }
+.hour18 .sky #skyZenith, .hour18 .sky-reflection #reflectZenith { stop-color: rgba(76,101,150,1); }
+.hour19 .sky #skyZenith, .hour19 .sky-reflection #reflectZenith { stop-color: rgba(71,82,133,0.93); }
+.hour20 .sky #skyZenith, .hour20 .sky-reflection #reflectZenith { stop-color: rgba(59,66,108,0.78); }
+.hour21 .sky #skyZenith, .hour21 .sky-reflection #reflectZenith { stop-color: rgba(44,49,84,0.56); }
+.hour22 .sky #skyZenith, .hour22 .sky-reflection #reflectZenith { stop-color: rgba(27,30,60,0.33); }
+.hour23 .sky #skyZenith, .hour23 .sky-reflection #reflectZenith { stop-color: rgba(0,19,48,0.0); }
+
+.hour0 .sky #skyMid, .hour0 .sky-reflection #reflectMid { stop-color: rgba(38,118,127,0.3); }
+.hour1 .sky #skyMid, .hour1 .sky-reflection #reflectMid { stop-color: rgba(64,105,129,0.3); }
+.hour2 .sky #skyMid, .hour2 .sky-reflection #reflectMid { stop-color: rgba(76,77,120,0.3); }
+.hour3 .sky #skyMid, .hour3 .sky-reflection #reflectMid { stop-color: rgba(91,64,124,0.3); }
+.hour4 .sky #skyMid, .hour4 .sky-reflection #reflectMid { stop-color: rgba(137,66,131,0.53); }
+.hour5 .sky #skyMid, .hour5 .sky-reflection #reflectMid { stop-color: rgba(175,69,138,0.77); }
+.hour6 .sky #skyMid, .hour6 .sky-reflection #reflectMid { stop-color: rgba(239,80,154,1); }
+.hour7 .sky #skyMid, .hour7 .sky-reflection #reflectMid { stop-color: rgba(218,166,181,1); }
+.hour8 .sky #skyMid, .hour8 .sky-reflection #reflectMid { stop-color: rgba(211,226,199,1); }
+.hour9 .sky #skyMid, .hour9 .sky-reflection #reflectMid { stop-color: rgba(134,189,187,1); }
+.hour10 .sky #skyMid, .hour10 .sky-reflection #reflectMid { stop-color: rgba(127,180,194,1); }
+.hour11 .sky #skyMid, .hour11 .sky-reflection #reflectMid { stop-color: rgba(142,205,217,1); }
+.hour12 .sky #skyMid, .hour12 .sky-reflection #reflectMid { stop-color: rgba(119,203,227,1); }
+.hour13 .sky #skyMid, .hour13 .sky-reflection #reflectMid { stop-color: rgba(92,202,273,1); }
+.hour14 .sky #skyMid, .hour14 .sky-reflection #reflectMid { stop-color: rgba(107,197,222,1); }
+.hour15 .sky #skyMid, .hour15 .sky-reflection #reflectMid { stop-color: rgba(122,200,212,1); }
+.hour16 .sky #skyMid, .hour16 .sky-reflection #reflectMid { stop-color: rgba(135,203,202,1); }
+.hour17 .sky #skyMid, .hour17 .sky-reflection #reflectMid { stop-color: rgba(148,205,192,1); }
+.hour18 .sky #skyMid, .hour18 .sky-reflection #reflectMid { stop-color: rgba(153,134,141,1); }
+.hour19 .sky #skyMid, .hour19 .sky-reflection #reflectMid { stop-color: rgba(174,93,104,1); }
+.hour20 .sky #skyMid, .hour20 .sky-reflection #reflectMid { stop-color: rgba(150,96,114,0.78); }
+.hour21 .sky #skyMid, .hour21 .sky-reflection #reflectMid { stop-color: rgba(127,98,124,0.79); }
+.hour22 .sky #skyMid, .hour22 .sky-reflection #reflectMid { stop-color: rgba(99,99,134,0.53); }
+.hour23 .sky #skyMid, .hour23 .sky-reflection #reflectMid { stop-color: rgba(54,92,145,0.3); }
+
+.hour0 .sky #skyHorizon, .hour0 .sky-reflection #reflectHorizon { stop-color: rgba(99,95,61,1); }
+.hour1 .sky #skyHorizon, .hour1 .sky-reflection #reflectHorizon { stop-color: rgba(113,99,69,1); }
+.hour2 .sky #skyHorizon, .hour2 .sky-reflection #reflectHorizon { stop-color: rgba(128,103,77,1); }
+.hour3 .sky #skyHorizon, .hour3 .sky-reflection #reflectHorizon { stop-color: rgba(142,107,85,1); }
+.hour4 .sky #skyHorizon, .hour4 .sky-reflection #reflectHorizon { stop-color: rgba(172,126,106,1); }
+.hour5 .sky #skyHorizon, .hour5 .sky-reflection #reflectHorizon { stop-color: rgba(206,150,130,1); }
+.hour6 .sky #skyHorizon, .hour6 .sky-reflection #reflectHorizon { stop-color: rgba(249,180,160,1); }
+.hour7 .sky #skyHorizon, .hour7 .sky-reflection #reflectHorizon { stop-color: rgba(244,194,150,1); }
+.hour8 .sky #skyHorizon, .hour8 .sky-reflection #reflectHorizon { stop-color: rgba(242,207,137,1); }
+.hour9 .sky #skyHorizon, .hour9 .sky-reflection #reflectHorizon { stop-color: rgba(255,232,177,1); }
+.hour10 .sky #skyHorizon, .hour10 .sky-reflection #reflectHorizon { stop-color: rgba(245,234,198,1); }
+.hour11 .sky #skyHorizon, .hour11 .sky-reflection #reflectHorizon { stop-color: rgba(235,237,220,1); }
+.hour12 .sky #skyHorizon, .hour12 .sky-reflection #reflectHorizon { stop-color: rgba(229,239,231,1); }
+.hour13 .sky #skyHorizon, .hour13 .sky-reflection #reflectHorizon { stop-color: rgba(226,243,244,1); }
+.hour14 .sky #skyHorizon, .hour14 .sky-reflection #reflectHorizon { stop-color: rgba(216,227,222,1); }
+.hour15 .sky #skyHorizon, .hour15 .sky-reflection #reflectHorizon { stop-color: rgba(206,215,203,1); }
+.hour16 .sky #skyHorizon, .hour16 .sky-reflection #reflectHorizon { stop-color: rgba(197,203,185,1); }
+.hour17 .sky #skyHorizon, .hour17 .sky-reflection #reflectHorizon { stop-color: rgba(187,192,167,1); }
+.hour18 .sky #skyHorizon, .hour18 .sky-reflection #reflectHorizon { stop-color: rgba(218,156,108,1); }
+.hour19 .sky #skyHorizon, .hour19 .sky-reflection #reflectHorizon { stop-color: rgba(244,117,49,1); }
+.hour20 .sky #skyHorizon, .hour20 .sky-reflection #reflectHorizon { stop-color: rgba(208,119,68,1); }
+.hour21 .sky #skyHorizon, .hour21 .sky-reflection #reflectHorizon { stop-color: rgba(179,120,84,1); }
+.hour22 .sky #skyHorizon, .hour22 .sky-reflection #reflectHorizon { stop-color: rgba(151,119,96,1); }
+.hour23 .sky #skyHorizon, .hour23 .sky-reflection #reflectHorizon { stop-color: rgba(119,99,84,1); }

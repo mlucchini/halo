@@ -3,8 +3,8 @@ import Isvg from 'react-inlinesvg'
 import landscape from './landscape.svg'
 import './Landscape.css'
 
-const Landscape = () => (
-  <Isvg src={landscape} uniquifyIDs={false} />
+const Landscape = ({ hours }) => (
+  <Isvg src={landscape} uniquifyIDs={false} className={`hour${hours}`} />
 )
 
 export default Landscape

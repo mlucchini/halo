@@ -22,23 +22,8 @@ body {
   opacity: 1;
 }
 
-img {
-  border: 0;
-  -ms-interpolation-mode: bicubic;
-  vertical-align: middle;
-}
-
 svg:not(:root) {
   overflow: hidden;
-}
-
-/* Animations */
-#landscape, .land, #landfront, .stags, .stag, .lensFlare, .sunMask,
-.sun:before, .clouds svg, .suncrane, .twinkles {
-  animation-duration: 60s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-delay: 0s;
 }
 
 /* Aspect ratio media queries  */

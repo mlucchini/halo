@@ -1,7 +1,7 @@
 .sunMask {
-  position:absolute;
-  width:100%;
-  height:100%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
   -webkit-mask-image: -webkit-gradient(linear, left 50%, left 60%, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
   z-index: 4;
   mix-blend-mode: screen;
@@ -10,7 +10,7 @@
 .sun {
   width: 100%;
   padding-bottom: 100%;
-  position:absolute;   
+  position: absolute;   
   right: -51%;
   top: -330%;
 }
@@ -19,12 +19,11 @@
   background: transparent url(sun.svg);
   position: absolute;
   top: 0; bottom: 0; left: 0; right: 0;
-  opacity:0.5;
+  opacity: 0.5;
 }
 
 .suncrane {
-  animation-name: suncrane;
-  position:absolute;
+  position: absolute;
   width: 21%;
   height: 4%;
   background: transparent;
@@ -34,32 +33,73 @@
   right: 0;
 }
 
-@keyframes suncrane { 
-  0% {transform:rotate(90deg);}
-  100% {transform:rotate(-270deg);}
-}
+.hour0 .suncrane { transform: rotate(90deg); }
+.hour1 .suncrane { transform: rotate(75deg); }
+.hour2 .suncrane { transform: rotate(60deg); }
+.hour3 .suncrane { transform: rotate(45deg); }
+.hour4 .suncrane { transform: rotate(30deg); }
+.hour5 .suncrane { transform: rotate(15deg); }
+.hour6 .suncrane { transform: rotate(0deg); }
+.hour7 .suncrane { transform: rotate(-15deg); }
+.hour8 .suncrane { transform: rotate(-30deg); }
+.hour9 .suncrane { transform: rotate(-45deg); }
+.hour10 .suncrane { transform: rotate(-60deg); }
+.hour11 .suncrane { transform: rotate(-75deg); }
+.hour12 .suncrane { transform: rotate(-90deg); }
+.hour13 .suncrane { transform: rotate(-105deg); }
+.hour14 .suncrane { transform: rotate(-120deg); }
+.hour15 .suncrane { transform: rotate(-135deg); }
+.hour16 .suncrane { transform: rotate(-150deg); }
+.hour17 .suncrane { transform: rotate(-165deg); }
+.hour18 .suncrane { transform: rotate(-180deg); }
+.hour19 .suncrane { transform: rotate(-195deg); }
+.hour20 .suncrane { transform: rotate(-210deg); }
+.hour21 .suncrane { transform: rotate(-225deg); }
+.hour22 .suncrane { transform: rotate(-240deg); }
+.hour23 .suncrane { transform: rotate(-255deg); }
 
 .sun:before {
-  display:block;
-  content:' ';
-  animation-name: glare;
-  position:absolute;
+  display: block;
+  content: ' ';
+  position: absolute;
+  animation: glare 60s linear infinite;
   width: 120%;
   height: 120%;
   background: url(glare.svg) no-repeat scroll center;
   top: -10%;
   left: -10%;
   background-size: 100%;
-} 
+}
 
 @keyframes glare { 
-  from {transform:rotate(0deg);opacity:0.0;}
-  30%{opacity:0.0;}
-  36%{opacity:0.3;}
-  68%{opacity:0.3;}
-  74%{opacity:0.0;}
-  to {transform:rotate(800deg);opacity:0.0;}
+  from { transform:rotate(0deg); }
+  to { transform:rotate(800deg); }
 }
+
+.hour0 .sun:before { opacity: 0.0; }
+.hour1 .sun:before { opacity: 0.0; }
+.hour2 .sun:before { opacity: 0.0; }
+.hour3 .sun:before { opacity: 0.0; }
+.hour4 .sun:before { opacity: 0.0; }
+.hour5 .sun:before { opacity: 0.0; }
+.hour6 .sun:before { opacity: 0.0; }
+.hour7 .sun:before { opacity: 0.0; }
+.hour8 .sun:before { opacity: 0.1; }
+.hour9 .sun:before { opacity: 0.3; }
+.hour10 .sun:before { opacity: 0.3; }
+.hour11 .sun:before { opacity: 0.3; }
+.hour12 .sun:before { opacity: 0.3; }
+.hour13 .sun:before { opacity: 0.3; }
+.hour14 .sun:before { opacity: 0.3; }
+.hour15 .sun:before { opacity: 0.3; }
+.hour16 .sun:before { opacity: 0.3; }
+.hour17 .sun:before { opacity: 0.3; }
+.hour18 .sun:before { opacity: 0.1; }
+.hour19 .sun:before { opacity: 0.0; }
+.hour20 .sun:before { opacity: 0.0; }
+.hour21 .sun:before { opacity: 0.0; }
+.hour22 .sun:before { opacity: 0.0; }
+.hour23 .sun:before { opacity: 0.0; }
 
 .sun:after {
   display: block;
@@ -94,14 +134,29 @@
 
 .lensFlare {
   transform: rotate(16deg) translate3d(9%, -47%, 0px) scale(1); 
-  animation-name: flaring;
 }
 
-@keyframes flaring {
-  0% { transform: rotate(16deg) translate3d(9%, -47%, 0px) scale(1); opacity: 0.0;}
-  28% { transform: rotate(16deg) translate3d(9%, -47%, 0px) scale(1); opacity: 0.0; }
-  35% { transform: rotate(16deg) translate3d(9%, -47%, 0px) scale(1); opacity: 1.0; }
-  70% { transform: rotate(16deg) translate3d(9%, -47%, 0px) scale(1); opacity: 1.0; } 
-  78% { transform: rotate(16deg) translate3d(9%, -47%, 0px) scale(1); opacity: 0.0; }
-  100% { transform: rotate(16deg) translate3d(9%, -47%, 0px) scale(1); opacity: 0.0; }
-}
+.hour0 .suncrane .lensFlare { opacity: 0.0; }
+.hour1 .suncrane .lensFlare { opacity: 0.0; }
+.hour2 .suncrane .lensFlare { opacity: 0.0; }
+.hour3 .suncrane .lensFlare { opacity: 0.0; }
+.hour4 .suncrane .lensFlare { opacity: 0.0; }
+.hour5 .suncrane .lensFlare { opacity: 0.0; }
+.hour6 .suncrane .lensFlare { opacity: 0.0; }
+.hour7 .suncrane .lensFlare { opacity: 0.0; }
+.hour8 .suncrane .lensFlare { opacity: 0.5; }
+.hour9 .suncrane .lensFlare { opacity: 1.0; }
+.hour10 .suncrane .lensFlare { opacity: 1.0; }
+.hour11 .suncrane .lensFlare { opacity: 1.0; }
+.hour12 .suncrane .lensFlare { opacity: 1.0; }
+.hour13 .suncrane .lensFlare { opacity: 1.0; }
+.hour14 .suncrane .lensFlare { opacity: 1.0; }
+.hour15 .suncrane .lensFlare { opacity: 1.0; }
+.hour16 .suncrane .lensFlare { opacity: 1.0; }
+.hour17 .suncrane .lensFlare { opacity: 0.5; }
+.hour18 .suncrane .lensFlare { opacity: 0.0; }
+.hour19 .suncrane .lensFlare { opacity: 0.0; }
+.hour20 .suncrane .lensFlare { opacity: 0.0; }
+.hour21 .suncrane .lensFlare { opacity: 0.0; }
+.hour22 .suncrane .lensFlare { opacity: 0.0; }
+.hour23 .suncrane .lensFlare { opacity: 0.0; }

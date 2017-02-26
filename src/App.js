@@ -1,13 +1,13 @@
 import React from 'react'
-import Stars from './components/stars'
-import Sky from './components/sky'
-import Landscape from './components/landscape'
-import Landfront from './components/landfront'
-import Stag from './components/stag'
-import Sun from './components/sun'
-import Clouds from './components/clouds'
-import Vignette from './components/vignette'
-import Twinkles from './components/twinkles'
+import Stars from './containers/Stars'
+import Sky from './containers/Sky'
+import Landscape from './containers/Landscape'
+import Landfront from './containers/Landfront'
+import Stag from './containers/Stag'
+import Sun from './containers/Sun'
+import Clouds from './containers/Clouds'
+import Vignette from './containers/Vignette'
+import Twinkles from './containers/Twinkles'
 import Informations from './containers/Informations'
 import './App.css'
 
@@ -26,4 +26,4 @@ const App = () => (
   </div>
 )
 
-export default App;
+export default App
