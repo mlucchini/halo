@@ -1,0 +1,11 @@
+.menu {
+  position: absolute;
+  bottom: -2em;
+  z-index: 100;
+  width: 100%;
+}
+
+.menu .slider {
+  width: 60%;
+  margin: 0 auto;
+}
