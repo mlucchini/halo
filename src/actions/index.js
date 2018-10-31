@@ -1,4 +1,5 @@
 import { current } from '../api/weather'
+import { timezone } from '../api/timezone'
 import { REQUEST_CITY_WEATHER, RECEIVE_CITY_WEATHER, ERROR_CITY_WEATHER } from './types'
 import { UPDATE_INPUT_CITY, RESET_INPUT_CITY } from './types'
 
@@ -8,9 +9,9 @@ export const errorCityWeather = (err) => ({ type: ERROR_CITY_WEATHER, err })
 export const fetchCityWeather = (city) => (
   (dispatch) => {
     dispatch(requestCityWeather(city))
-    return current(city)
-      .then(data => dispatch(receiveCityWeather(data)))
-      .catch(err => dispatch(errorCityWeather(err)))
+    return current(city).then(city => (
+        timezone(city.coord.lat, city.coord.lon).then(tz => dispatch(receiveCityWeather({ city, tz })))
+      )).catch(err => dispatch(errorCityWeather(err)))
   }
 )
 
