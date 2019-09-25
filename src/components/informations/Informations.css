@@ -4,6 +4,7 @@
   position: absolute;
   z-index: 100;
   padding: 2em;
+  width: 100%;
 }
 
 .informations .text-field-override,

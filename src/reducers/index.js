@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux'
-import current from './current'
+import weather from './weather'
 import input from './input'
 
-const weather = combineReducers({
-  current,
+const reducers = combineReducers({
+  weather,
   input
 })
 
-export default weather
+export default reducers

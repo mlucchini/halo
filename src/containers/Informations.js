@@ -4,14 +4,14 @@ import { fetchInputCityWeather, updateInputCity, resetInputCity } from '../actio
 
 const mapStateToProps = (state) => (
   {
-    ...state.current,
+    ...state.weather,
     input: state.input.city
   }
 )
 
 const mapDispatchToProps = (dispatch) => (
   {
-    onChange: (event, city) => {
+    onChange: (_, city) => {
       dispatch(updateInputCity(city))
     },
     onKeyPress: (event) => {
