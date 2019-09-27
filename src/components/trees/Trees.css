@@ -30,7 +30,7 @@
 .hour22 .layerTree { fill:#151A32; }
 .hour23 .layerTree { fill:#14192C; }
 
-#trees .layerTree {
+span.wind #trees .layerTree {
   animation: layerTree 60s linear infinite;
 }
 
