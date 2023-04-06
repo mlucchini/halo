@@ -9,7 +9,7 @@ const Clouds = ({ clouds, hours }) => (
   isNaN(clouds) ? null :
   <div className="clouds" style={{ opacity: hourToOpacity(hours) }}>
   {
-    Array(clouds / 10).fill().map((_, i) =>
+    Array(parseInt(clouds / 10, 10)).fill().map((_, i) =>
       <div key={`cloud${i}`} className={`cloud${i}`}>
         <Isvg src={cloud} uniquifyIDs={false} />
       </div>
